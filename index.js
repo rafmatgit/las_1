@@ -2,8 +2,7 @@ import "./style.css";
 
 const images = {
   treasure: "💰",
-  leafs: "🍃",
-  tree: "🌲"
+  leafs: "🍃"
 };
 
 const trees = document.querySelectorAll(".tree");
