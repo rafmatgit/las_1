@@ -6,7 +6,6 @@ const images = {
 };
 
 const trees = document.querySelectorAll(".tree");
-const treasure = document.querySelector(".treasure");
 
 trees.forEach(tree => {
   tree.addEventListener("mouseleave", e => (tree.innerHTML = images.tree));
